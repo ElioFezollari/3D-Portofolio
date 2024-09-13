@@ -4,7 +4,7 @@ import { useFrame, useLoader } from '@react-three/fiber'
 
 export default function Room(){
     // useFrame((state) => {
-    //     console.log(state.camera.position)
+    //     console.log(state.camera.rotation)
     // })
     const texture = useLoader(TextureLoader,'./bakedRoom.jpg')
     texture.flipY = false
