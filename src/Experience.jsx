@@ -4,9 +4,9 @@ import Room from './Room'
 export default function Experience()
 {
     return <>
-        {/* <OrbitControls/> */}
-        <Perf position="top-left" />
 
+        <Perf position="top-left" />
+        
         <Room/>
 
     </>

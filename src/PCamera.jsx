@@ -7,7 +7,6 @@ const PCamera = () => {
 
 
   function test() {
-    console.log('hi')
     gsap.to(camera.position, { x: -1.4670931555005555, y: 3.873290827039308, z: -3.319999068769551 ,      duration: 2,
         ease: "power1.inOut",
         
@@ -23,13 +22,15 @@ const PCamera = () => {
       });
   }
   test()
+
   return (
     <PerspectiveCamera
+    
       makeDefault
       position={[-2.8361929451685057, 5.9, 2.0498575431467745]}
       fov={45}
       near={0.1}
-      far={10}
+      far={20}
       rotation={[-1.5707973267351913, 1.4432887733041577e-8, 3.14]}
     />
   );
