@@ -4,7 +4,6 @@ import Room from './Room'
 export default function Experience()
 {
     return <>
-
         <Perf position="top-left" />
         
         <Room/>

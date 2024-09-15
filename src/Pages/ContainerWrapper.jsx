@@ -5,18 +5,15 @@ import { useState } from "react"
 
 const ContainerWrapper = () =>{
 
-    const [wheelDirection,setWheelDirection] = useState('')
-
-
-    
+    const [wheelDirection,setWheelDirection] = useState('none')
+    const [wheelEnabled,setWheelEnabled] = useState(true)
     const wheelTurned = (e) =>{
         if(e.deltaY>0){
             setWheelDirection('down')
         }
-        if(e.deltaY<0){
+        else if(e.deltaY<0){
             setWheelDirection('up')
         }
-        console.log(wheelDirection)
     }
 
     return(
@@ -24,7 +21,7 @@ const ContainerWrapper = () =>{
         <Canvas >
     
             <Experience />
-            <PCamera/>
+            <PCamera wheelDirection={wheelDirection} setWheelDirection={setWheelDirection} wheelEnabled={wheelEnabled} setWheelEnabled={setWheelEnabled} />
         </Canvas>
         </div>
     )
