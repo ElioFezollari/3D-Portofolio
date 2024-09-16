@@ -8,9 +8,15 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
     const animationOneRotation = [-1.3017331201951894, 1.4613199765544966, 3.14 / 2.42];
     const animationTwoPosition = [-1.4670931555005555, 3.1, -2.85];
     const animationTwoRotation = [-1.3017331201951894, 1.4613199765544966, 3.14 / 2.42];
+    const animationThreePosition = [-3.298823500891904, 2.275358373401949, -1.1507952294949377]
+    const animationThreeRotation = [-0.05048752409358442, 0.001999546639527374, 0.00010103795436500205]
+    const animationFourPosition = [-2.75, 1.5, -1.1507952294949377]
+    const animationFourRotation = [-0.05048752409358442, 0.001999546639527374, 0.00010103795436500205]
+    const animationFivePosition = [-3.298823500891904, 0.65, -1.1507952294949377]
+    const animationFiveRotation = [-0.05048752409358442, 0.001999546639527374, 0.00010103795436500205]
 
-    const animationPositions = [animationZeroPosition, animationOnePosition, animationTwoPosition];
-    const animationRotations = [animationZeroRotation, animationOneRotation, animationTwoRotation];
+    const animationPositions = [animationZeroPosition, animationOnePosition, animationTwoPosition,animationThreePosition,animationFourPosition,animationFivePosition];
+    const animationRotations = [animationZeroRotation, animationOneRotation, animationTwoRotation,animationThreeRotation,animationFourRotation,animationFiveRotation];
 
     const runAnimation = (animationNumber) => {
         gsap.to(camera.position, {
@@ -29,7 +35,7 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
             ease: "power1.inOut",
             onComplete: () => {
                 setWheelEnabled(true);
-                if (animationState < 2) {
+                if (animationState < 5) {
                     setAnimationState(prevState => prevState + 1);
                 }
             },
