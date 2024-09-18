@@ -5,7 +5,7 @@ import { useState } from "react";
 import useCameraAnimation from "../Hooks/useCameraAnimation";
 const PCamera = ({ wheelDirection, setWheelDirection,wheelEnabled,setWheelEnabled }) => {
   const { camera } = useThree();
-  const [animationState, setAnimationState] = useState(1);
+  const [animationState, setAnimationState] = useState(0);
 
   useCameraAnimation(camera, animationState, wheelDirection,setWheelDirection,setAnimationState,wheelEnabled,setWheelEnabled);
   

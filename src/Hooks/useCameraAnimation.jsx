@@ -18,7 +18,12 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
     const animationPositions = [animationZeroPosition, animationOnePosition, animationTwoPosition,animationThreePosition,animationFourPosition,animationFivePosition];
     const animationRotations = [animationZeroRotation, animationOneRotation, animationTwoRotation,animationThreeRotation,animationFourRotation,animationFiveRotation];
 
-    const runAnimation = (animationNumber) => {
+    const runAnimation = (animationNumber,isUp=false) => {
+        if(isUp && animationNumber == -1 || !isUp && animationNumber == animationPositions.length){
+            setWheelEnabled(true);
+            console.log('here')
+            return
+        }
         gsap.to(camera.position, {
             x: animationPositions[animationNumber][0],
             y: animationPositions[animationNumber][1],
@@ -35,8 +40,13 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
             ease: "power1.inOut",
             onComplete: () => {
                 setWheelEnabled(true);
-                if (animationState < 5) {
+                if (!isUp && animationState < 5) {
                     setAnimationState(prevState => prevState + 1);
+                    console.log(animationState)
+                }
+                else{
+                    setAnimationState(prevState => prevState - 1);
+                    console.log(animationState)
                 }
             },
         });
@@ -45,7 +55,12 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
     useEffect(() => {
         if (wheelDirection === "down" && wheelEnabled) {
             setWheelEnabled(false); 
-            runAnimation(animationState);
+            runAnimation(animationState+1);
+            setWheelDirection('none');
+        }
+        else if (wheelDirection === "up" && wheelEnabled) {
+            setWheelEnabled(false); 
+            runAnimation(animationState-1,true);
             setWheelDirection('none');
         }
     }, [wheelDirection, animationState, wheelEnabled, setWheelDirection, setWheelEnabled, runAnimation]);

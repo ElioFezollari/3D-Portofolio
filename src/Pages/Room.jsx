@@ -15,7 +15,6 @@ export default function Room(){
     texture.colorSpace=sRGBEncoding
     const {nodes} = useGLTF('./room.glb')
 
-    console.log(nodes)
     return( 
         <>
         <mesh geometry={nodes.baked.geometry}>
