@@ -14,3 +14,7 @@ body,
     height: 100%;
     width: 100%;
 }
+.pdf-resume iframe{
+    width: 2048px;
+    height: 1024px;
+}

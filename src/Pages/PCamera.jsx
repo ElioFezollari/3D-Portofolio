@@ -7,7 +7,7 @@ const PCamera = ({ wheelDirection, setWheelDirection,wheelEnabled,setWheelEnable
   const { camera } = useThree();
   const [animationState, setAnimationState] = useState(0);
 
-  useCameraAnimation(camera, animationState, wheelDirection,setWheelDirection,setAnimationState,wheelEnabled,setWheelEnabled);
+  // useCameraAnimation(camera, animationState, wheelDirection,setWheelDirection,setAnimationState,wheelEnabled,setWheelEnabled);
   
 
   return (
