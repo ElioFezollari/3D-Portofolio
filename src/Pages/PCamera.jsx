@@ -7,17 +7,17 @@ const PCamera = ({ wheelDirection, setWheelDirection,wheelEnabled,setWheelEnable
   const { camera } = useThree();
   const [animationState, setAnimationState] = useState(0);
 
-  // useCameraAnimation(camera, animationState, wheelDirection,setWheelDirection,setAnimationState,wheelEnabled,setWheelEnabled);
+  useCameraAnimation(camera, animationState, wheelDirection,setWheelDirection,setAnimationState,wheelEnabled,setWheelEnabled);
   
 
   return (
     <PerspectiveCamera
       makeDefault
-      position={[-2.8361929451685057, 5.9, 2.0498575431467745]}
+      position={[0.69342015182745911, 2.4974429692872578, -1.783102346664854]}
       fov={45}
       near={0.1}
       far={20}
-      rotation={[-1.5707973267351913, 1.4432887733041577e-8, 3.14]}
+      rotation={[-0.4296081352169132, -1.549186303877301, -0.42651941370609376]}
     />
   );
 };

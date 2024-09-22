@@ -19,7 +19,6 @@ const ContainerWrapper = () =>{
     return(
         <div className="big-div" onWheel={e=>wheelTurned(e)}>
         <Canvas >
-    
             <Experience />
             <PCamera wheelDirection={wheelDirection} setWheelDirection={setWheelDirection} wheelEnabled={wheelEnabled} setWheelEnabled={setWheelEnabled} />
         </Canvas>

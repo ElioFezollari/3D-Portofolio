@@ -1,102 +1,102 @@
 [
     {
-      "texturePath": "./Javascript.png",
+      "texturePath": "./images/book_images/Javascript.png",
       "scale": [0.10, 0.13, 0.13],
       "position": [-2.99, 3.6, -3.04],
       "rotation": [0, 1.57, 0]
     },
     {
-      "texturePath": "./CSS.png",
+      "texturePath": "./images/book_images/CSS.png",
       "scale": [0.10, 0.13, 0.10],
       "position": [-3.03, 3.6, -3.26],
       "rotation": [0.29, 1.3, 0]
     },
     {
-      "texturePath": "./Html.png",
+      "texturePath": "./images/book_images/Html.png",
       "scale": [0.13, 0.13, 0.10],
       "position": [-3.15, 3.6, -3.54],
       "rotation": [-0.13, 1.57, 0]
     },
     {
-      "texturePath": "./React.svg",
+      "texturePath": "./images/book_images/React.svg",
       "scale": [0.2, 0.14, 0.10],
       "position": [-2.955, 2.67, -2.58],
       "rotation": [0, 1.57, 0]
     },
     {
-      "texturePath": "./ThreeJs.png",
+      "texturePath": "./images/book_images/ThreeJs.png",
       "scale": [0.11, 0.11, 0.10],
       "position": [-2.955, 2.85, -2.97],
       "rotation": [0, 1.57, 0]
     },
     {
-      "texturePath": "./Php.svg",
+      "texturePath": "./images/book_images/Php.svg",
       "scale": [0.13, 0.13, 0.10],
       "position": [-3.22, 2.33, -3.04],
       "rotation": [3.14, 3.14, 3.8]
     },
     {
-      "texturePath": "./Java.svg",
+      "texturePath": "./images/book_images/Java.svg",
       "scale": [0.13, 0.13, 0.10],
       "position": [-3.012, 2.3, -2.95],
       "rotation": [3.14, 3.14, 3]
     },
     {
-      "texturePath": "./SpringBoot.svg",
+      "texturePath": "./images/book_images/SpringBoot.svg",
       "scale": [0.10, 0.10, 0.10],
       "position": [-3.065, 1.9, -2.95],
       "rotation": [3.14, 3.14, 3]
     },
     {
-      "texturePath": "./cSharp.svg",
+      "texturePath": "./images/book_images/cSharp.svg",
       "scale": [0.12, 0.12, 0.10],
       "position": [-3.54, 1.895, -2.92],
       "rotation": [3.14, 3.14, 3.14]
     },
     {
-      "texturePath": "./dotNet.svg",
+      "texturePath": "./images/book_images/dotNet.svg",
       "scale": [0.10, 0.10, 0.10],
       "position": [-3.34, 1.895, -2.92],
       "rotation": [3.14, 3.14, 3.14]
     },
     {
-      "texturePath": "./mysql.svg",
+      "texturePath": "./images/book_images/mysql.svg",
       "scale": [0.10, 0.10, 0.10],
       "position": [-2.985, 1.5, -2.965],
       "rotation": [-3, 3.14, 3.44]
     },
     {
-      "texturePath": "./sqlServer.svg",
+      "texturePath": "./images/book_images/sqlServer.svg",
       "scale": [0.10, 0.10, 0.10],
       "position": [-2.9, 1.2, -3],
       "rotation": [-3, 3.14, 3.84]
     },
     {
-      "texturePath": "./mongoDb.svg",
+      "texturePath": "./images/book_images/mongoDb.svg",
       "scale": [0.10, 0.10, 0.10],
       "position": [-2.485, 1.36, -2.98],
       "rotation": [-2.85, 3.14, 3]
     },
     {
-      "texturePath": "./nodeJs.svg",
+      "texturePath": "./images/book_images/nodeJs.svg",
       "scale": [0.10, 0.10, 0.10],
       "position": [-2.705, 1.36, -3.1],
       "rotation": [3.14, 3.14, 3.14]
     },
     {
-      "texturePath": "./devops.svg",
+      "texturePath": "./images/book_images/devops.svg",
       "scale": [0.3, 0.10, 0.10],
       "position": [-3.35, 0.73, -3],
       "rotation": [3.14, 3.2, 2.7]
     },
     {
-      "texturePath": "./docker.svg",
+      "texturePath": "./images/book_images/docker.svg",
       "scale": [0.13, 0.13, 0.10],
       "position": [-3.31, 0.465, -3.018],
       "rotation": [3.14, 3.14, 3.14]
     },
     {
-      "texturePath": "./github.svg",
+      "texturePath": "./images/book_images/github.svg",
       "scale": [0.12, 0.12, 0.10],
       "position": [-3.29, 0.335, -3.018],
       "rotation": [3.14, 3.14, 3.14]
