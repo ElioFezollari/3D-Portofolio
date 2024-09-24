@@ -7,15 +7,14 @@ import projectMeshData from "../../Data/projectMeshData.json"
 const TVImages = () => {
   const [toggleHover,setToggleHover] = useState();
   const [currentProject,setCurrentProject] = useState(0)
-  const maxProjects = 1
+  const maxProjects = 3
+
+  const textures = useLoader(TextureLoader, projectMeshData.map(project => project.texture));
+
   useEffect(() => {
     document.body.style.cursor = toggleHover ? 'pointer' : 'auto'
   }, [toggleHover])
 
-  const northPole1Texture = useLoader(
-    TextureLoader,
-    "./images/tv_images/Northpole-1.png"
-  );
   const arrows = useLoader(TextureLoader, "./images/tv_images/arrow.svg");
   const xPos = 3.64342015182745911;
   return (
@@ -53,7 +52,7 @@ const TVImages = () => {
         <meshBasicMaterial map={arrows} transparent={true} />
       </mesh>
 
-      <Projects texture={northPole1Texture} xPos={xPos} title={projectMeshData[currentProject].title} textColor={projectMeshData[currentProject].textColor} />
+      <Projects texture={textures[currentProject]} xPos={xPos} title={projectMeshData[currentProject].title} bgColor={projectMeshData[currentProject].bgColor} textColor={projectMeshData[currentProject].textColor} />
     </>
   );
 };

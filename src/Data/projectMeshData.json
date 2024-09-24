@@ -1,12 +1,26 @@
 [
     {
-        "texture":"./images/tv_images/Northpole-1.png",
-        "title":"The North Pole",
-        "textColor":"#4F5B9C"
+        "texture":"./images/tv_images/PetExpo.webp",
+        "title":"Pet Expo",
+        "textColor":"#060606",
+        "bgColor":"#E2E2E2"
     },
     {
         "texture":"./images/tv_images/Northpole-1.png",
         "title":"The North Pole",
-        "textColor":"red"
+        "textColor":"#4F5B9C",
+        "bgColor":"#E2E2E2"
+    },
+    {
+        "texture":"./images/tv_images/PathFusion.webp",
+        "title":"Path Fusion",
+        "textColor":"#C00111",
+        "bgColor":"#01121C"
+    },
+    {
+        "texture":"./images/tv_images/TreasureMaze.webp",
+        "title":"Treazure Maze",
+        "textColor":"#C00111",
+        "bgColor":"#E2E2E2"
     }
 ]
