@@ -13,11 +13,11 @@ const PCamera = ({ wheelDirection, setWheelDirection,wheelEnabled,setWheelEnable
   return (
     <PerspectiveCamera
       makeDefault
-      position={[0.69342015182745911, 2.4974429692872578, -1.783102346664854]}
+      position={[-2.8361929451685057, 5.9, 2.0498575431467745]}
       fov={45}
       near={0.1}
       far={20}
-      rotation={[-0.4296081352169132, -1.549186303877301, -0.42651941370609376]}
+      rotation={[-1.5707973267351913, 1.4432887733041577e-8, 3.14]}
     />
   );
 };
