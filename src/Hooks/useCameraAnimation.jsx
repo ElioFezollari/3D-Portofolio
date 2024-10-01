@@ -16,8 +16,8 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
     const animationFiveRotation = [-0.05048752409358442, 0.001999546639527374, 0.00010103795436500205]
     const animationSixPosition = [0.69342015182745911, 2.4974429692872578, -1.783102346664854]
     const animationSixRotation = [-0.4296081352169132, -1.549186303877301, -0.42651941370609376]
-    const animationSevenPosition = [2.455248451562559, 1.6878814883312627, 1.5028745798136154]
-    const animationSevenRotation = [3.1014404299634557, 0.00965304415230294, 3.1408031668110703]
+    const animationSevenPosition = [2.4634304727977005,1.8004473271581298,1.5374797528271187]
+    const animationSevenRotation = [0.01395943498308905,-3.16,0]
     const animationPositions = [animationZeroPosition, animationOnePosition, animationTwoPosition,animationThreePosition,animationFourPosition,animationFivePosition,animationSixPosition,animationSevenPosition];
     const animationRotations = [animationZeroRotation, animationOneRotation, animationTwoRotation,animationThreeRotation,animationFourRotation,animationFiveRotation,animationSixRotation,animationSevenRotation];
 

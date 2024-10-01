@@ -1,5 +1,5 @@
-import { Html } from "@react-three/drei"
 import BookImages from "./Additions/BookImages"
+import ComputerImages from "./Additions/ComputerImages"
 import TVImages from "./Additions/TvImages"
 
 const RoomAdditions = () =>{
@@ -7,6 +7,7 @@ const RoomAdditions = () =>{
         <>
         <BookImages/>
         <TVImages/>
+        <ComputerImages/>
         </>
     )
 }
