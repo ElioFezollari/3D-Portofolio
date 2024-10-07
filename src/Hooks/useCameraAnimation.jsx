@@ -21,8 +21,7 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
     const animationPositions = [animationZeroPosition, animationOnePosition, animationTwoPosition,animationThreePosition,animationFourPosition,animationFivePosition,animationSixPosition,animationSevenPosition];
     const animationRotations = [animationZeroRotation, animationOneRotation, animationTwoRotation,animationThreeRotation,animationFourRotation,animationFiveRotation,animationSixRotation,animationSevenRotation];
 
-
-    console.log(animationState)
+    
     const runAnimation = (animationNumber,isUp=false) => {
         if(isUp && animationNumber == -1 || !isUp && animationNumber > animationPositions.length-1){
             setWheelEnabled(true);

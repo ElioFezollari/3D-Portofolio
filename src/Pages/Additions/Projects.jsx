@@ -5,7 +5,7 @@ const Projects = ({ texture, xPos,title,textColor,bgColor }) => {
       {" "}
       <mesh
         scale={[1.0345 * 2.37, 0.31, 0]}
-        position={[xPos - 0.0001, 2.90529692872578, -1.783102346664854]}
+        position={[xPos - 0.0001, 2.90529692872578, -1.770102346664854]}
         rotation={[0, 3.14 * 1.5, 0]}
       >
         <planeGeometry></planeGeometry>
@@ -13,7 +13,7 @@ const Projects = ({ texture, xPos,title,textColor,bgColor }) => {
       </mesh>
       <mesh
         scale={[1.0345 * 2.37, 0.5 * 2.37, 0]}
-        position={[xPos, 2.16329692872578, -1.783102346664854]}
+        position={[xPos, 2.16329692872578, -1.768102346664854]}
         rotation={[0, 3.14 * 1.5, 0]}
       >
         <planeGeometry />
@@ -21,7 +21,7 @@ const Projects = ({ texture, xPos,title,textColor,bgColor }) => {
       </mesh>
       <mesh
         scale={[1.0345 * 2.37, 0.5 * 2.37, 0]}
-        position={[xPos - 0.001, 2.91329692872578, -1.783102346664854]}
+        position={[xPos - 0.001, 2.91329692872578, -1.773102346664854]}
         rotation={[0, 3.14 * 1.5, 0]}
       >
         <Text

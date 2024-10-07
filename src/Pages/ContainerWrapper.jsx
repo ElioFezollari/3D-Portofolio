@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber"
 import Experience from "./Experience"
-import PCamera from "./PCamera"
 import { useState } from "react"
+import PCamera from "./Entities/PCamera"
 
 const ContainerWrapper = () =>{
 
