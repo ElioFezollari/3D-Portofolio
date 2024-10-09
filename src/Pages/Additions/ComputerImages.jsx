@@ -1,6 +1,6 @@
-import { Text } from "@react-three/drei";
+import { useCursor } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { TextureLoader } from "three";
 
 
@@ -9,9 +9,7 @@ const ComputerImages = () => {
   const [linkedinColor, setLinkedinColor] = useState("white");
   const [githubColor, setGithubColor] = useState("white");
 
-  useEffect(() => {
-    document.body.style.cursor = toggleHover ? 'pointer' : 'auto';
-  }, [toggleHover]);
+  useCursor(toggleHover)
 
   const handleHover = (setColor, color, hoverColor) => {
     setColor(color === 'white' ? hoverColor : 'white');

@@ -1,8 +1,8 @@
-import { Text } from "@react-three/drei";
+import { Text, useCursor } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
 import Projects from "./Projects";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import projectMeshData from "../../Data/projectMeshData.json"
 const TVImages = () => {
   const [toggleHover,setToggleHover] = useState();
@@ -11,9 +11,7 @@ const TVImages = () => {
 
   const textures = useLoader(TextureLoader, projectMeshData.map(project => project.texture));
 
-  useEffect(() => {
-    document.body.style.cursor = toggleHover ? 'pointer' : 'auto'
-  }, [toggleHover])
+  useCursor(toggleHover)
 
   const arrows = useLoader(TextureLoader, "./images/tv_images/arrow.svg");
   const xPos = 3.64342015182745911;
