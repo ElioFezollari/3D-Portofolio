@@ -4,8 +4,8 @@ import Room from './Entities/Room'
 export default function Experience()
 {
     return <>
-    {/* <OrbitControls/>  */}
-        {/* <Perf position="top-left" /> */}
+    <OrbitControls/> 
+        <Perf position="top-left" />
         <Room/>
 
     </>
