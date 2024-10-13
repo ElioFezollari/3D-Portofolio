@@ -1,5 +1,6 @@
 import BookImages from "./Additions/BookImages"
 import ComputerImages from "./Additions/ComputerImages"
+import Indicators from "./Additions/Indicators"
 import TVImages from "./Additions/TvImages"
 
 const RoomAdditions = () =>{
@@ -8,6 +9,7 @@ const RoomAdditions = () =>{
         <BookImages/>
         <TVImages/>
         <ComputerImages/>
+        <Indicators/>
         </>
     )
 }
