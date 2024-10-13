@@ -68,7 +68,20 @@
         "textPosition":[0, 0.8, 1],
         "textRotation":[0, 6.28, 0],
         "meshPosition":[-3.47, 0.33, -3.03]
+    },
+    {
+        "textPosition":[-1, -0.6, 0],
+        "textRotation":[3.14,1.65,0],
+        "meshPosition":[3.66,1.73, -2.8],
+        "size":5
+    },
+    {
+        "textPosition":[0, 0.7, -1],
+        "textRotation":[0,0,0],
+        "meshPosition":[2.74, 1.75, 3.419],
+        "size":2.5
     }
+
     
 ]
 

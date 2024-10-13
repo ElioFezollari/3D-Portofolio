@@ -16,13 +16,13 @@ const Indicators = () => {
   
   return (
     <>
-      {meshData.map(({ textPosition, textRotation, meshPosition }, index) => (
+      {meshData.map(({ textPosition, textRotation, meshPosition,size =1}, index) => (
         <mesh
         key={index}
         onPointerEnter={() => handleInfoModal(true, index)}
         onPointerLeave={() => handleInfoModal(false, null)}
         position={meshPosition}
-        scale={[0.02, 0.02, 0.02]}
+        scale={[0.02 * size, 0.02 * size, 0.02 * size] }
       >
           <sphereGeometry />
           <meshBasicMaterial
