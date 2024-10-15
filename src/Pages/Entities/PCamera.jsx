@@ -1,14 +1,25 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useCameraAnimation from '../../Hooks/useCameraAnimation'
 const PCamera = ({ wheelDirection, setWheelDirection,wheelEnabled,setWheelEnabled }) => {
-  const { camera } = useThree();
+  const { camera,size } = useThree();
   const [animationState, setAnimationState] = useState(0);
 
   useCameraAnimation(camera, animationState, wheelDirection,setWheelDirection,setAnimationState,wheelEnabled,setWheelEnabled);
   
+  useEffect(() => {
+    const isMobile = size.width < 600;
+    console.log(size.width)
+    console.log(isMobile)
+    if (isMobile) {
+      camera.fov = 60; 
+    } else {
+      camera.fov = 45;
+    }
+    camera.updateProjectionMatrix();
+  }, [size.width, camera]);
 
   return (
     <PerspectiveCamera
