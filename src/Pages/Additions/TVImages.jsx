@@ -33,7 +33,7 @@ const TVImages = () => {
       </mesh>
 
       <mesh onClick={() => setCurrentProject((prev) => Math.min(prev + 1, maxProjects))} onPointerEnter={()=>setToggleHover(true)} onPointerLeave={()=>setToggleHover(false)}
-        position={[xPos + 0.05, 2.3, -0.215]}
+        position={[xPos + 0.05, 1.2, -1.415]}
         scale={[0.5, 0.5, 1]}
         rotation={[0, 3.14 * 1.5, 0]}
       >
@@ -41,7 +41,7 @@ const TVImages = () => {
         <meshBasicMaterial map={arrows} transparent={true} />
       </mesh>
       <mesh         onClick={() => setCurrentProject((prev) => Math.max(prev - 1, 0))}  onPointerEnter={()=>setToggleHover(true)} onPointerLeave={()=>setToggleHover(false)}
-        position={[xPos + 0.05, 2.3, -3.35]}
+        position={[xPos + 0.05, 1.2, -2.1]}
         scale={[0.5, 0.5, 1]}
         rotation={[3.14, 3.14 * 1.5, 0]}
 

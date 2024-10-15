@@ -23,8 +23,6 @@ const ComputerImages = () => {
   return (
     <>
       <mesh
-        onPointerEnter={() => setToggleHover(true)}
-        onPointerLeave={() => setToggleHover(false)}
         rotation={[3.14, 0, 3.142]}
         position={[2.405, 1.882, 3.419]}
         scale={[0.8, 0.415, 0.3]}

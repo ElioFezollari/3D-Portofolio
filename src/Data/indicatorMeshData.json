@@ -4,7 +4,7 @@
         "textRotation":[0,1.57,0],
         "meshPosition":[-2.98, 3.96, -3.015],
         "popUp":{
-            "coordinate":[-2.98, 3.96, -2.61],
+            "coordinate":[-2.98, 3.96, -3.015],
             "text":"Javascript",
             "color":"#6F7219"
         }
@@ -14,7 +14,7 @@
         "textRotation":[0,1.57,0.3],
         "meshPosition":[-3.02, 3.94, -3.16],
         "popUp":{
-            "coordinate":[-2.9, 3.925, -2.8],
+            "coordinate":[-3.02, 3.94, -3.16],
             "text":"CSS",   
             "color":"#123184"
         }
@@ -45,7 +45,7 @@
         "textRotation":[0, 1.60, 1.1],
         "meshPosition":[-2.96, 3.14, -2.6],
         "popUp":{
-            "coordinate":[-2.96, 3.135, -2.205],
+            "coordinate":[-2.96, 3.14, -2.6],
             "text":"ThreeJS",            
             "color":"#75838E"
         }
@@ -55,7 +55,7 @@
         "textRotation":[0, 6.28, 3.8],
         "meshPosition":[-3.5, 2.06, -3.06],
         "popUp":{
-            "coordinate":[-4, 2.58, -3.06],
+            "coordinate":[-3.5, 2.06, -3.06],
             "text":"PHP",
             "color":"#2D415A"
         }
@@ -75,7 +75,7 @@
         "textRotation":[0, 6.28, 0],
         "meshPosition":[-3.44, 1.895, -2.93],
         "popUp":{
-            "coordinate":[-3.93, 1.895, -2.93],
+            "coordinate":[-3.44, 1.895, -2.93],
             "text":"C# and .NET",
             "color":"#1A1334"
         }
@@ -85,7 +85,7 @@
         "textRotation":[0, 6.28, 3.44],
         "meshPosition":[-2.93, 1.36, -2.965],
         "popUp":{
-            "coordinate":[-3.425, 1.36, -2.965],
+            "coordinate":[-2.93, 1.36, -2.965],
             "text":"MYSQL and SQLServer",
             "color":"#0B2B44"
         }
@@ -95,7 +95,7 @@
         "textRotation":[0, 6.28, 0],
         "meshPosition":[-2.7, 1.6, -3.12],
         "popUp":{
-            "coordinate":[-2.7, 2.125, -3.12],
+            "coordinate":[-2.7, 1.6, -3.12],
             "text":"NodeJS",
             "color":"#294D1F"
         }
@@ -115,7 +115,7 @@
         "textRotation":[0, 6.28, 2.7],
         "meshPosition":[-3.55, 0.85, -3.04],
         "popUp":{
-            "coordinate":[-4.05, 0.85, -3.04],
+            "coordinate":[-3.55, 0.85, -3.04],
             "text":"DevOPS",
             "color":"#441B19"
         }
@@ -125,7 +125,7 @@
         "textRotation":[0, 6.28, 0],
         "meshPosition":[-3.5, 0.465, -3.03],
         "popUp":{
-            "coordinate":[-3.5, 0.975, -3.03],
+            "coordinate":[-3.5, 0.465, -3.03],
             "text":"Docker",
             "color":"#133068"
         }
