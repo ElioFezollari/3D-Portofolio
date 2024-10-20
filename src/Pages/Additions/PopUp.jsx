@@ -9,7 +9,7 @@ const PopUp = () => {
       <div className="hello-there" style={{ backgroundColor: popUpInfo.color }}>
         <div className="header-div">
           <h2>{popUpInfo.title}</h2>
-          <button className="close-button">X</button>
+          <button onClick={()=>setPopUpInfo(null)} className="close-button">X</button>
         </div>
       </div>
     )
