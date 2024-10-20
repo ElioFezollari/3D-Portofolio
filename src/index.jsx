@@ -5,5 +5,8 @@ import ContainerWrapper from './Pages/ContainerWrapper.jsx'
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
+    <>
     <ContainerWrapper/>
+
+    </>
 )

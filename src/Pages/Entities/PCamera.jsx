@@ -11,8 +11,6 @@ const PCamera = ({ wheelDirection, setWheelDirection,wheelEnabled,setWheelEnable
   
   useEffect(() => {
     const isMobile = size.width < 600;
-    console.log(size.width)
-    console.log(isMobile)
     if (isMobile) {
       camera.fov = 60; 
     } else {

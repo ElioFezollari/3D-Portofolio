@@ -42,7 +42,6 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
             duration: 2,
             ease: "power1.inOut",
             onComplete: () => {
-                console.log(animationState)
                 setWheelEnabled(true);
                 if (!isUp) {
                     setAnimationState(prevState => prevState + 1);

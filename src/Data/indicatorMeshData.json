@@ -5,7 +5,7 @@
         "meshPosition":[-2.98, 3.96, -3.015],
         "popUp":{
             "coordinate":[-2.98, 3.96, -3.015],
-            "text":"Javascript",
+            "title":"Javascript",
             "color":"#6F7219"
         }
     },
@@ -15,7 +15,7 @@
         "meshPosition":[-3.02, 3.94, -3.16],
         "popUp":{
             "coordinate":[-3.02, 3.94, -3.16],
-            "text":"CSS",   
+            "title":"CSS",   
             "color":"#123184"
         }
     },
@@ -25,7 +25,7 @@
         "meshPosition":[-3.14, 3.94, -3.62],
         "popUp":{
             "coordinate":[-3.14, 3.94, -3.62],
-            "text":"HTML",
+            "title":"HTML",
             "color":"#642B17"
         }
     },
@@ -35,7 +35,7 @@
         "meshPosition":[-2.95, 2.67, -3.07],
         "popUp":{
             "coordinate":[-2.95, 2.67, -3.07],
-            "text":"React",
+            "title":"React",
             "color":"#4E8097"
 
         }
@@ -46,7 +46,7 @@
         "meshPosition":[-2.96, 3.14, -2.6],
         "popUp":{
             "coordinate":[-2.96, 3.14, -2.6],
-            "text":"ThreeJS",            
+            "title":"ThreeJS",            
             "color":"#75838E"
         }
     },
@@ -56,7 +56,7 @@
         "meshPosition":[-3.5, 2.06, -3.06],
         "popUp":{
             "coordinate":[-3.5, 2.06, -3.06],
-            "text":"PHP",
+            "title":"PHP",
             "color":"#2D415A"
         }
     },
@@ -66,7 +66,7 @@
         "meshPosition":[-3.03, 2.1, -2.96],
         "popUp":{
             "coordinate":[-3.03, 2.1, -2.96],
-            "text":"Java and Spring",
+            "title":"Java and Spring",
             "color":"#5E5337"
         }
     },
@@ -76,7 +76,7 @@
         "meshPosition":[-3.44, 1.895, -2.93],
         "popUp":{
             "coordinate":[-3.44, 1.895, -2.93],
-            "text":"C# and .NET",
+            "title":"C# and .NET",
             "color":"#1A1334"
         }
     },    
@@ -86,7 +86,7 @@
         "meshPosition":[-2.93, 1.36, -2.965],
         "popUp":{
             "coordinate":[-2.93, 1.36, -2.965],
-            "text":"MYSQL and SQLServer",
+            "title":"MYSQL and SQLServer",
             "color":"#0B2B44"
         }
     },
@@ -96,7 +96,7 @@
         "meshPosition":[-2.7, 1.6, -3.12],
         "popUp":{
             "coordinate":[-2.7, 1.6, -3.12],
-            "text":"NodeJS",
+            "title":"NodeJS",
             "color":"#294D1F"
         }
     },
@@ -106,7 +106,7 @@
         "meshPosition":[-2.45, 1.55, -2.93],
         "popUp":{
             "coordinate":[-2.45, 1.55, -2.93],
-            "text":"MongoDB",
+            "title":"MongoDB",
             "color":"#0E5030"
         }
     },
@@ -116,7 +116,7 @@
         "meshPosition":[-3.55, 0.85, -3.04],
         "popUp":{
             "coordinate":[-3.55, 0.85, -3.04],
-            "text":"DevOPS",
+            "title":"DevOPS",
             "color":"#441B19"
         }
     },
@@ -126,7 +126,7 @@
         "meshPosition":[-3.5, 0.465, -3.03],
         "popUp":{
             "coordinate":[-3.5, 0.465, -3.03],
-            "text":"Docker",
+            "title":"Docker",
             "color":"#133068"
         }
     },
@@ -136,7 +136,7 @@
         "meshPosition":[-3.47, 0.33, -3.03],
         "popUp":{
             "coordinate":[-3.47, 0.33, -3.03],
-            "text":"Github",
+            "title":"Github",
             "color":"#455459"
         }
         
@@ -148,7 +148,7 @@
         "size":5,
         "popUp":{
             "coordinate":[3.66,3.63, -2.8],
-            "text":"Projects",
+            "title":"Projects",
             "height":650,
             "width":500,
             "opacity":1
@@ -161,7 +161,7 @@
         "size":2,
         "popUp":{
             "coordinate":[3, 2.5, 3.419],
-            "text":"Me",
+            "title":"Me",
             "height":650,
             "width":500,
             "opacity":0.96

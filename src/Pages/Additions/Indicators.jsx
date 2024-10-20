@@ -1,9 +1,9 @@
 import { Text, useCursor } from "@react-three/drei";
-import { useState } from "react";
-import meshData from "../../Data/indicatorMeshData.json";
-import PopUp from "./PopUp";
+import { useContext, useState } from "react";
+import indicatorData from "../../Data/indicatorMeshData.json";
+import { popUpContext } from "../ContainerWrapper";
 const Indicators = () => {
-  const [indexHovered,setIndexHovered] = useState()
+  const [popUpInfo,setPopUpInfo] = useContext(popUpContext)
   const [openModal, setOpenModal] = useState({
     modalState: false,
     index: null,
@@ -16,11 +16,11 @@ const Indicators = () => {
   useCursor(openModal.modalState);
   return (
     <>
-      {meshData.map(({ textPosition, textRotation, meshPosition,size =1}, index) => (
+      {indicatorData.map(({ textPosition, textRotation, meshPosition,size =1}, index) => (
         <mesh
         key={index}
         onPointerEnter={() => handleInfoModal(true, index)}
-        onClick={()=>setIndexHovered(index)}
+        onClick={()=>setPopUpInfo(indicatorData[index].popUp)}
         onPointerLeave={() => handleInfoModal(false, null)}
         position={meshPosition}
         scale={[0.02 * size, 0.02 * size, 0.02 * size] }
@@ -41,7 +41,6 @@ const Indicators = () => {
           </Text>
         </mesh>
       ))}
-      <PopUp index={indexHovered} setIndexHovered={setIndexHovered}/>
     </>
   );
 };

@@ -1,21 +1,18 @@
-import { Html } from "@react-three/drei";
-import popUpsData from '../../Data/indicatorMeshData.json';
+import { useContext } from "react";
+import { popUpContext } from "../ContainerWrapper";
 
-const PopUp = ({ index,setIndexHovered}) => {
+const PopUp = () => {
+  const [popUpInfo, setPopUpInfo] = useContext(popUpContext);
+  console.log(popUpInfo);
   return (
-    <>
-      {popUpsData.map((popUpData, i) => {
-        return popUpData.popUp && i === index ? ( 
-          <Html key={i} position={popUpData.popUp.coordinate}>
-            <div className={`parent-div ${index !== null ? 'visible' : ''}`} style={{backgroundColor:popUpData.popUp.color,width:`${popUpData.popUp.width}px`,height:`${popUpData.popUp.height}px`,opacity:popUpData.popUp.opacity}}>
-              <p className="text">{popUpData.popUp.text}</p>
-              <button className="close-button" onClick={()=>setIndexHovered(null)}>X</button>
-            </div>
-          </Html>
-        ) : null;
-      })}
-    </>
+    popUpInfo && (
+      <div className="hello-there" style={{ backgroundColor: popUpInfo.color }}>
+        <div className="header-div">
+          <h2>{popUpInfo.title}</h2>
+          <button className="close-button">X</button>
+        </div>
+      </div>
+    )
   );
 };
-
 export default PopUp;

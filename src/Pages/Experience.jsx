@@ -5,7 +5,6 @@ export default function Experience()
 {
     return <>
 
-
         <Room/>
 
     </>
