@@ -59,18 +59,28 @@ body,
     transform: scale(1);
 }
 
-.hello-there{
+.pop-up{
     position: absolute;
     background-color: black;
-    height: 600px;
-    width: 500px;
-    padding: 20px;
+    height: 500px;
+    width: 600px;
     color: white;
-    border-radius: 30px;
     top: 50%;
-    opacity: 0.95;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+.image-div{
+    background-color: #1A1A1A;
+    height: 501px;
+    width: 100%;
+    position: absolute;
+    top: -0.5px;
+    z-index: -1;
+    clip-path: polygon(0 0, 40% 0, 53% 100%, 0% 100%);
+
+
 }
 .header-div{
     display: flex;
@@ -80,7 +90,20 @@ body,
 .close-button {
     background: transparent;
     border: none;
-    color: white;
+    color: black;
     font-size: 26px;
     cursor: pointer;
+    align-self: flex-end;
+  }
+  .image-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
   }

@@ -6,7 +6,8 @@
         "popUp":{
             "coordinate":[-2.98, 3.96, -3.015],
             "title":"Javascript",
-            "color":"#6F7219"
+            "color":"#FFF038",
+            "img":"javascript3d.webp"
         }
     },
     {
@@ -16,7 +17,8 @@
         "popUp":{
             "coordinate":[-3.02, 3.94, -3.16],
             "title":"CSS",   
-            "color":"#123184"
+            "color":"#264DE4",
+            "img":"css3d.webp"
         }
     },
     {
@@ -26,7 +28,8 @@
         "popUp":{
             "coordinate":[-3.14, 3.94, -3.62],
             "title":"HTML",
-            "color":"#642B17"
+            "color":"#E34E26",
+            "img":"html3d.webp"
         }
     },
     {
@@ -36,7 +39,8 @@
         "popUp":{
             "coordinate":[-2.95, 2.67, -3.07],
             "title":"React",
-            "color":"#4E8097"
+            "color":"#0983A4",
+            "img":"react3d.webp"
 
         }
     },
@@ -47,7 +51,8 @@
         "popUp":{
             "coordinate":[-2.96, 3.14, -2.6],
             "title":"ThreeJS",            
-            "color":"#75838E"
+            "color":"#F4F6FF",
+            "img":"threeJS3d.webp"
         }
     },
     {
@@ -57,7 +62,8 @@
         "popUp":{
             "coordinate":[-3.5, 2.06, -3.06],
             "title":"PHP",
-            "color":"#2D415A"
+            "color":"#8A93BD",
+            "img":"php3d.webp"
         }
     },
     {
@@ -67,7 +73,8 @@
         "popUp":{
             "coordinate":[-3.03, 2.1, -2.96],
             "title":"Java and Spring",
-            "color":"#5E5337"
+            "color":"#E37B19",
+            "img":"java3d.webp"
         }
     },
     {
@@ -77,7 +84,8 @@
         "popUp":{
             "coordinate":[-3.44, 1.895, -2.93],
             "title":"C# and .NET",
-            "color":"#1A1334"
+            "color":"#390091",
+            "img":"cs3d.webp"
         }
     },    
     {
@@ -87,7 +95,8 @@
         "popUp":{
             "coordinate":[-2.93, 1.36, -2.965],
             "title":"MYSQL and SQLServer",
-            "color":"#0B2B44"
+            "color":"#0C2C44",
+            "img":"db3d.webp"
         }
     },
     {
@@ -97,7 +106,8 @@
         "popUp":{
             "coordinate":[-2.7, 1.6, -3.12],
             "title":"NodeJS",
-            "color":"#294D1F"
+            "color":"#84CE24",
+            "img":"nodeJS3d.webp"
         }
     },
     {
@@ -107,7 +117,8 @@
         "popUp":{
             "coordinate":[-2.45, 1.55, -2.93],
             "title":"MongoDB",
-            "color":"#0E5030"
+            "color":"#6CAC48",
+            "img":"mongoDB3d.webp"              
         }
     },
     {
@@ -117,7 +128,8 @@
         "popUp":{
             "coordinate":[-3.55, 0.85, -3.04],
             "title":"DevOPS",
-            "color":"#441B19"
+            "color":"#6b3331",
+            "img":"devops3d.webp"
         }
     },
     {
@@ -127,7 +139,8 @@
         "popUp":{
             "coordinate":[-3.5, 0.465, -3.03],
             "title":"Docker",
-            "color":"#133068"
+            "color":"#1D63ED",
+            "img":"docker3d.webp"
         }
     },
     {
@@ -137,7 +150,8 @@
         "popUp":{
             "coordinate":[-3.47, 0.33, -3.03],
             "title":"Github",
-            "color":"#455459"
+            "color":"#d7d8db",
+            "img":"git3d.webp"
         }
         
     },
