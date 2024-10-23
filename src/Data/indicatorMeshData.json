@@ -1,188 +1,329 @@
 [
-    {
-        "textPosition":[1, 0.7, -0.15],
-        "textRotation":[0,1.57,0],
-        "meshPosition":[-2.98, 3.96, -3.015],
-        "popUp":{
-            "coordinate":[-2.98, 3.96, -3.015],
-            "title":"Javascript",
-            "color":"#FFF038",
-            "img":"javascript3d.webp"
-        }
-    },
-    {
-        "textPosition":[1, 0.7, 0.1],
-        "textRotation":[0,1.57,0.3],
-        "meshPosition":[-3.02, 3.94, -3.16],
-        "popUp":{
-            "coordinate":[-3.02, 3.94, -3.16],
-            "title":"CSS",   
-            "color":"#264DE4",
-            "img":"css3d.webp"
-        }
-    },
-    {
-        "textPosition":[1, 0.7, 0.1],
-        "textRotation":[-0.13, 1.57, 0],
-        "meshPosition":[-3.14, 3.94, -3.62],
-        "popUp":{
-            "coordinate":[-3.14, 3.94, -3.62],
-            "title":"HTML",
-            "color":"#E34E26",
-            "img":"html3d.webp"
-        }
-    },
-    {
-        "textPosition":[1, 0.9, 0.1],
-        "textRotation":[0, 1.60, 0],
-        "meshPosition":[-2.95, 2.67, -3.07],
-        "popUp":{
-            "coordinate":[-2.95, 2.67, -3.07],
-            "title":"React",
-            "color":"#0983A4",
-            "img":"react3d.webp"
-
-        }
-    },
-    {
-        "textPosition":[1.05, 0.3, 0.5],
-        "textRotation":[0, 1.60, 1.1],
-        "meshPosition":[-2.96, 3.14, -2.6],
-        "popUp":{
-            "coordinate":[-2.96, 3.14, -2.6],
-            "title":"ThreeJS",            
-            "color":"#F4F6FF",
-            "img":"threeJS3d.webp"
-        }
-    },
-    {
-        "textPosition":[0.5, -0.4, 1],
-        "textRotation":[0, 6.28, 3.8],
-        "meshPosition":[-3.5, 2.06, -3.06],
-        "popUp":{
-            "coordinate":[-3.5, 2.06, -3.06],
-            "title":"PHP",
-            "color":"#8A93BD",
-            "img":"php3d.webp"
-        }
-    },
-    {
-        "textPosition":[0, 0.8, 0.98],
-        "textRotation":[0, 6.28, -0.2],
-        "meshPosition":[-3.03, 2.1, -2.96],
-        "popUp":{
-            "coordinate":[-3.03, 2.1, -2.96],
-            "title":"Java and Spring",
-            "color":"#E37B19",
-            "img":"java3d.webp"
-        }
-    },
-    {
-        "textPosition":[0, 0.8, 1],
-        "textRotation":[0, 6.28, 0],
-        "meshPosition":[-3.44, 1.895, -2.93],
-        "popUp":{
-            "coordinate":[-3.44, 1.895, -2.93],
-            "title":"C# and .NET",
-            "color":"#390091",
-            "img":"cs3d.webp"
-        }
-    },    
-    {
-        "textPosition":[0.3, -0.5, 1],
-        "textRotation":[0, 6.28, 3.44],
-        "meshPosition":[-2.93, 1.36, -2.965],
-        "popUp":{
-            "coordinate":[-2.93, 1.36, -2.965],
-            "title":"MYSQL and SQLServer",
-            "color":"#0C2C44",
-            "img":"db3d.webp"
-        }
-    },
-    {
-        "textPosition":[0, 0.8, 1],
-        "textRotation":[0, 6.28, 0],
-        "meshPosition":[-2.7, 1.6, -3.12],
-        "popUp":{
-            "coordinate":[-2.7, 1.6, -3.12],
-            "title":"NodeJS",
-            "color":"#84CE24",
-            "img":"nodeJS3d.webp"
-        }
-    },
-    {
-        "textPosition":[0, 0.8, 1],
-        "textRotation":[0, 6.28, 0],
-        "meshPosition":[-2.45, 1.55, -2.93],
-        "popUp":{
-            "coordinate":[-2.45, 1.55, -2.93],
-            "title":"MongoDB",
-            "color":"#6CAC48",
-            "img":"mongoDB3d.webp"              
-        }
-    },
-    {
-        "textPosition":[-0.3, -0.6, 1],
-        "textRotation":[0, 6.28, 2.7],
-        "meshPosition":[-3.55, 0.85, -3.04],
-        "popUp":{
-            "coordinate":[-3.55, 0.85, -3.04],
-            "title":"DevOPS",
-            "color":"#6b3331",
-            "img":"devops3d.webp"
-        }
-    },
-    {
-        "textPosition":[0, 0.8, 1],
-        "textRotation":[0, 6.28, 0],
-        "meshPosition":[-3.5, 0.465, -3.03],
-        "popUp":{
-            "coordinate":[-3.5, 0.465, -3.03],
-            "title":"Docker",
-            "color":"#1D63ED",
-            "img":"docker3d.webp"
-        }
-    },
-    {
-        "textPosition":[0, 0.8, 1],
-        "textRotation":[0, 6.28, 0],
-        "meshPosition":[-3.47, 0.33, -3.03],
-        "popUp":{
-            "coordinate":[-3.47, 0.33, -3.03],
-            "title":"Github",
-            "color":"#d7d8db",
-            "img":"git3d.webp"
-        }
-        
-    },
-    {
-        "textPosition":[-1, -0.6, 0],
-        "textRotation":[3.14,1.65,0],
-        "meshPosition":[3.66,1.73, -2.8],
-        "size":5,
-        "popUp":{
-            "coordinate":[3.66,3.63, -2.8],
-            "title":"Projects",
-            "height":650,
-            "width":500,
-            "opacity":1
-        }
-    },
-    {
-        "textPosition":[0, 0.7, -1],
-        "textRotation":[0,0,0],
-        "meshPosition":[2.74, 1.75, 3.419],
-        "size":2,
-        "popUp":{
-            "coordinate":[3, 2.5, 3.419],
-            "title":"Me",
-            "height":650,
-            "width":500,
-            "opacity":0.96
-        }
+  {
+    "textPosition": [1, 0.7, -0.15],
+    "textRotation": [0, 1.57, 0],
+    "meshPosition": [-2.98, 3.96, -3.015],
+    "popUp": {
+      "coordinate": [-2.98, 3.96, -3.015],
+      "title": "Javascript",
+      "color": "#FFF038",
+      "img": "javascript3d.webp",
+      "imgAlt": "3D picture of the Javascript logo",
+      "description": "A versatile programming language for creating dynamic and interactive web applications",
+      "yoe": "3",
+      "skills": "DOM manipulation, ES6+, async programming.",
+      "ecosystem": [
+        {
+          "img": "jquery.svg",
+          "alt": "Icon of JQuery"
+        },
+        {
+          "img": "express.svg",
+          "alt": "Icon of expressJS"
+        },
+        { "img": "nestjs.svg", "alt": "Icon of NestJS" }
+      ]
     }
+  },
+  {
+    "textPosition": [1, 0.7, 0.1],
+    "textRotation": [0, 1.57, 0.3],
+    "meshPosition": [-3.02, 3.94, -3.16],
+    "popUp": {
+      "coordinate": [-3.02, 3.94, -3.16],
+      "title": "CSS",
+      "color": "#264DE4",
+      "img": "css3d.webp",
+      "imgAlt": "3D picture of the CSS logo",
+      "description": "A style sheet language used for describing the presentation of a document written in HTML or XML.",
+      "yoe": "3",
+      "skills": "Flexbox, Grid, Animations, Responsive Design.",
+      "ecosystem": [
+        {
+          "img": "bootstrap.svg",
+          "alt": "Icon of Bootstrap"
+        },
+        {
+          "img": "tailwind.svg",
+          "alt": "Icon of Tailwind CSS"
+        }
+      ]
+    }
+  },
+  {
+    "textPosition": [1, 0.7, 0.1],
+    "textRotation": [-0.13, 1.57, 0],
+    "meshPosition": [-3.14, 3.94, -3.62],
+    "popUp": {
+      "coordinate": [-3.14, 3.94, -3.62],
+      "title": "HTML",
+      "color": "#E34E26",
+      "img": "html3d.webp",
+      "imgAlt": "3D picture of the HTML logo",
+      "description": "The standard markup language for creating and structuring web pages.",
+      "yoe": "3",
+      "skills": "Semantic HTML, Accessibility, SEO, Forms, Media Embedding."
+    }
+  },
+  {
+    "textPosition": [1, 0.9, 0.1],
+    "textRotation": [0, 1.6, 0],
+    "meshPosition": [-2.95, 2.67, -3.07],
+    "popUp": {
+      "coordinate": [-2.95, 2.67, -3.07],
+      "title": "React",
+      "color": "#0983A4",
+      "img": "react3d.webp",
+      "imgAlt": "3D picture of the React logo",
+      "description": "A JavaScript library for building user interfaces, especially for single-page applications.",
+      "yoe": "2",
+      "skills": "Component-based architecture, Hooks, State management, Context API.",
+      "ecosystem": [
+        {
+          "img": "react-router.svg",
+          "alt": "Icon of React Router"
+        },
+        {
+          "img": "framer-motion.svg",
+          "alt": "Icon of Framer Motion"
+        },
+        {
+          "img": "react-native.svg",
+          "alt": "Icon of React Native"
+        }
+      ]
+    }
+  },
+  {
+    "textPosition": [1.05, 0.3, 0.5],
+    "textRotation": [0, 1.6, 1.1],
+    "meshPosition": [-2.96, 3.14, -2.6],
+    "popUp": {
+      "coordinate": [-2.96, 3.14, -2.6],
+      "title": "ThreeJS",
+      "color": "#F4F6FF",
+      "img": "threeJS3d.webp",
+      "imgAlt": "3D picture of the ThreeJS logo",
+      "description": "A powerful 3D JavaScript library for creating immersive web experiences using WebGL. This is the technology this website is built on combined with React!",
+      "yoe": "1",
+      "skills": "Scene creation, Lighting, Materials, Animations."
+    }
+  },
+  {
+    "textPosition": [0.5, -0.4, 1],
+    "textRotation": [0, 6.28, 3.8],
+    "meshPosition": [-3.5, 2.06, -3.06],
+    "popUp": {
+      "coordinate": [-3.5, 2.06, -3.06],
+      "title": "PHP",
+      "color": "#8A93BD",
+      "img": "php3d.webp",
+      "imgAlt": "3D picture of the PHP logo",
+      "description": "A popular general-purpose scripting language especially suited to web development.",
+      "yoe": "3",
+      "skills": "Server Side Scripting,Form handling, Session management, File manipulation, Data validation, Security best practices."
+    }
+  },
+  {
+    "textPosition": [0, 0.8, 0.98],
+    "textRotation": [0, 6.28, -0.2],
+    "meshPosition": [-3.03, 2.1, -2.96],
+    "popUp": {
+      "coordinate": [-3.03, 2.1, -2.96],
+      "title": "Java and Spring",
+      "color": "#E37B19",
+      "img": "java3d.webp",
+      "imgAlt": "3D picture of the Java logo",
+      "description": "A widely-used programming language and framework for building enterprise-level applications.",
+      "yoe": "2 and 1 respectively",
+      "skills": "Object-oriented programming, RESTful APIs, Dependency injection, Microservices architecture, Data access with JPA.",
+      "ecosystem": [
+        {
+          "img": "spring.svg",
+          "alt": "Icon of Spring Framework"
+        },
+        {
+          "img": "gradle.svg",
+          "alt": "Icon of Gradle"
+        }
+      ]
+    }
+  },
 
-    
+  {
+    "textPosition": [0, 0.8, 1],
+    "textRotation": [0, 6.28, 0],
+    "meshPosition": [-3.44, 1.895, -2.93],
+    "popUp": {
+      "coordinate": [-3.44, 1.895, -2.93],
+      "title": "C# and .NET",
+      "color": "#390091",
+      "img": "cs3d.webp",
+      "imgAlt": "3D picture of the C# logo",
+      "description": "A modern programming language and framework developed by Microsoft for building various types of applications.",
+      "yoe": "3 and 2 respectively",
+      "skills": "Object-oriented programming, LINQ, Asynchronous programming, Web APIs, Microservices architecture.",
+      "ecosystem": [
+        {
+          "img": "dotnet.svg",
+          "alt": "Icon of .NET"
+        }
+      ]
+    }
+  },
+  {
+    "textPosition": [0.3, -0.5, 1],
+    "textRotation": [0, 6.28, 3.44],
+    "meshPosition": [-2.93, 1.36, -2.965],
+    "popUp": {
+      "coordinate": [-2.93, 1.36, -2.965],
+      "title": "Relational Databases",
+      "color": "#0C2C44",
+      "img": "db3d.webp",
+      "imgAlt": "3D picture of a database logo",
+      "description": "Databases that store data in a structured format using rows and columns.",
+      "yoe": "3",
+      "skills": "SQL querying, Data normalization, Transaction management, Data integrity, Indexing.",
+      "ecosystem": [
+        {
+          "img": "postgresql.svg",
+          "alt": "Icon of PostgreSQL"
+        },
+        {
+          "img": "mysql.svg",
+          "alt": "Icon of MySQL"
+        },
+        {
+          "img": "sqlite.svg",
+          "alt": "Icon of SQLite"
+        }
+      ]
+    }
+  },
+  {
+    "textPosition": [0, 0.8, 1],
+    "textRotation": [0, 6.28, 0],
+    "meshPosition": [-2.7, 1.6, -3.12],
+    "popUp": {
+      "coordinate": [-2.7, 1.6, -3.12],
+      "title": "NodeJS",
+      "color": "#84CE24",
+      "img": "nodeJS3d.webp",
+      "imgAlt": "3D picture of the nodeJS logo",
+      "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine for building scalable network applications.",
+      "yoe": "2",
+      "skills": "Asynchronous programming, RESTful APIs, Middleware integration, Real-time applications, NPM package management.",
+      "ecosystem": [
+        {
+          "img": "express.svg",
+          "alt": "Icon of Express.js"
+        },
+        {
+          "img": "nestjs.svg",
+          "alt": "Icon of NestJS"
+        }
+      ]
+    }
+  },
+  {
+    "textPosition": [0, 0.8, 1],
+    "textRotation": [0, 6.28, 0],
+    "meshPosition": [-2.45, 1.55, -2.93],
+    "popUp": {
+      "coordinate": [-2.45, 1.55, -2.93],
+      "title": "MongoDB",
+      "color": "#6CAC48",
+      "img": "mongoDB3d.webp",
+      "imgAlt": "3D picture of the MongoDB logo",
+      "description": "A NoSQL database that uses a document-oriented data model for high scalability and flexibility.",
+      "yoe": "2",
+      "skills": "Schema design, Aggregation framework, Indexing, Data modeling, Replication and sharding."
+    }
+  },
+  {
+    "textPosition": [-0.3, -0.6, 1],
+    "textRotation": [0, 6.28, 2.7],
+    "meshPosition": [-3.55, 0.85, -3.04],
+    "popUp": {
+      "coordinate": [-3.55, 0.85, -3.04],
+      "title": "DevOPS",
+      "color": "#6b3331",
+      "img": "devops3d.webp",
+      "imgAlt": "3D picture of a DevOps logo",
+      "description": "A set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle.",
+      "yoe": "1",
+      "skills": "Continuous Integration (CI), Continuous Deployment (CD), Infrastructure as Code (IaC), Monitoring and Logging, Collaboration and Communication.",
+      "ecosystem": [
+        {
+          "img": "github.svg",
+          "alt": "Icon of Github"
+        },
+        {
+          "img": "jenkins.svg",
+          "alt": "Icon of Jenkins"
+        },
+        {
+          "img": "github-pages.svg",
+          "alt": "Icon of github pages"
+        }
+      ]
+    }
+  },
+  {
+    "textPosition": [0, 0.8, 1],
+    "textRotation": [0, 6.28, 0],
+    "meshPosition": [-3.5, 0.465, -3.03],
+    "popUp": {
+      "coordinate": [-3.5, 0.465, -3.03],
+      "title": "Docker",
+      "color": "#1D63ED",
+      "img": "docker3d.webp",
+      "imgAlt": "3D picture of the Docker logo",
+      "description": "A platform for developing, shipping, and running applications inside containers, ensuring consistency across environments.",
+      "yoe": "1",
+      "skills": "Containerization, Microservices architecture, Docker Compose, Docker Swarm, Image management."
+    }
+  },
+  {
+    "textPosition": [0, 0.8, 1],
+    "textRotation": [0, 6.28, 0],
+    "meshPosition": [-3.47, 0.33, -3.03],
+    "popUp": {
+      "coordinate": [-3.47, 0.33, -3.03],
+      "title": "Git and Github",
+      "color": "#d7d8db",
+      "img": "git3d.webp",
+      "imgAlt": "3D picture of the Git logo",
+      "description": "Git is a version control system for tracking changes in source code, while GitHub is a cloud-based platform for hosting and collaborating on Git repositories.",
+      "yoe": "3",
+      "skills": "Version control, Branching and merging, Pull requests, Collaboration, CI/CD integration.",
+      "ecosystem": [{ "img": "github.svg", "alt": "Icon of Github" }]
+    }
+  },
+  {
+    "textPosition": [-1, -0.6, 0],
+    "textRotation": [3.14, 1.65, 0],
+    "meshPosition": [3.66, 1.73, -2.8],
+    "size": 5,
+    "popUp": {
+      "coordinate": [3.66, 3.63, -2.8],
+      "title": "Projects",
+      "height": 650,
+      "width": 500,
+      "opacity": 1
+    }
+  },
+  {
+    "textPosition": [0, 0.7, -1],
+    "textRotation": [0, 0, 0],
+    "meshPosition": [2.74, 1.75, 3.419],
+    "size": 2,
+    "popUp": {
+      "coordinate": [3, 2.5, 3.419],
+      "title": "Me",
+      "height": 650,
+      "width": 500,
+      "opacity": 0.96
+    }
+  }
 ]
-
-
