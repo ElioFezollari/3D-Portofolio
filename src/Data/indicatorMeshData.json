@@ -178,7 +178,7 @@
     "popUp": {
       "coordinate": [-2.93, 1.36, -2.965],
       "title": "Relational Databases",
-      "color": "#0C2C44",
+      "color": "#255478",
       "img": "db3d.webp",
       "imgAlt": "3D picture of a database logo",
       "description": "Databases that store data in a structured format using rows and columns.",
@@ -310,7 +310,34 @@
       "title": "Projects",
       "height": 650,
       "width": 500,
-      "opacity": 1
+      "opacity": 1,
+      "color": "#C9E5C0",
+      "projects": [
+        {
+          "title": "Pet Expo",
+          "description": "Pet Expo is a full-stack application designed to showcase a wide variety of dogs, cats, and birds. It provides detailed information, classifying them by species, origin, current location, and much more. Regular users can browse, search, and filter through a large gallery of animals, while admins have the ability to easily add new species or breeds via a user-friendly interface. The frontend is built with React and utilizes the Framer Motion library to create stunning animations, along with React Router for seamless navigation. The backend is powered by NestJS, and MongoDB is used as the database.",
+          "color": "#171717",
+          "textcolor": "",
+          "img": [
+            {
+              "name": "PetExpo1.jpg",
+              "description": "A gallery snippet showcasing three dog profiles, complete with search and filter functionality."
+            },
+            {
+              "name": "PetExpo2.jpg",
+              "description": "A dog details pop-up displaying further information and a link to view the full dog profile."
+            },
+            {
+              "name": "PetExpo3.jpg",
+              "description": "A personalized page for each dog, offering more detailed and specific information"
+            },
+            {
+              "name": "PetExpo4.jpg",
+              "description": "Admin dashboard showing the current animal selection, a search input, and a list of animals in the selected category. Admins can edit or delete dog profiles, and an 'Add Dogs' button opens a form similar to the one for editing."
+            }
+          ]
+        }
+      ]
     }
   },
   {

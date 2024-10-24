@@ -137,3 +137,39 @@ body,
     width: 50px;
     height: auto;
   }
+
+  .project-pop-up{
+    overflow: auto;
+    padding: 10px;
+    position: absolute;
+    background-color: black;
+    height: auto;
+    height: 100vh;
+    margin-top: 50px;
+    width: 70%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+  }
+  .project-wrapper-div{
+
+    color: #1A1A1A;
+  }
+  .project-wrapper-div h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+  }
+  .project-wrapper-body{
+    padding: 40px;
+  }
+  .project-image-card{
+    
+    width: 100%;
+  }
+  .project-image-card img{
+    width: 100%;
+  }

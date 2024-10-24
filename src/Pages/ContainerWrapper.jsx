@@ -11,18 +11,20 @@ const ContainerWrapper = () =>{
     const [popUpInfo,setPopUpInfo] = useState() 
     const [wheelDirection,setWheelDirection] = useState('none')
     const [wheelEnabled,setWheelEnabled] = useState(true)
-    const wheelTurned = (e) =>{
-        if(e.deltaY>0){
-            setWheelDirection('down')
+    const wheelTurned = (e) => {
+        e.preventDefault();
+        if (wheelEnabled) {
+            if (e.deltaY > 0) {
+                setWheelDirection('down');
+            } else if (e.deltaY < 0) {
+                setWheelDirection('up');
+            }
         }
-        else if(e.deltaY<0){
-            setWheelDirection('up')
-        }
-    }
+    };
 
     return(
         <div className="big-div" onWheel={e=>wheelTurned(e)}>
-        <popUpContext.Provider value={[popUpInfo,setPopUpInfo]}>
+        <popUpContext.Provider value={[popUpInfo,setPopUpInfo,setWheelEnabled]}>
         <Canvas linear flat>
             <Experience />
             <PCamera wheelDirection={wheelDirection} setWheelDirection={setWheelDirection} wheelEnabled={wheelEnabled} setWheelEnabled={setWheelEnabled} />
