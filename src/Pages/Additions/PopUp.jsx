@@ -2,16 +2,15 @@ import { useContext, useEffect } from "react";
 import { popUpContext } from "../ContainerWrapper";
 
 const PopUp = () => {
-  const [popUpInfo, setPopUpInfo,setWheelEnabled] = useContext(popUpContext);
+  const [popUpInfo, setPopUpInfo, setWheelEnabled,currentProject] = useContext(popUpContext);
 
-  useEffect(()=>{
-    if(popUpInfo){
-      setWheelEnabled(false)
+  useEffect(() => {
+    if (popUpInfo) {
+      setWheelEnabled(false);
+    } else {
+      setWheelEnabled(true);
     }
-    else{
-      setWheelEnabled(true)
-    }
-  },[popUpInfo])
+  }, [popUpInfo]);
 
   if (!popUpInfo) return null;
 
@@ -26,14 +25,27 @@ const PopUp = () => {
             X
           </button>
           <div className="project-wrapper-div">
-            <h1>{popUpInfo.projects[0].title}</h1>
+            <h1>{popUpInfo.projects[currentProject].title}</h1>
             <div className="project-wrapper-body">
               <p>
-                <b>Description:</b> {popUpInfo.projects[0].description}
+                <b>Description:</b> {popUpInfo.projects[currentProject].description}
               </p>
+              <div className="project-technologies">
+                <p><b>Technologies Used:</b></p>
+                <div>
+                {popUpInfo.projects[currentProject].technologies.map((tech, index) => (
+                    <img
+                      key={index}
+                      src={`/images/indicator_images/${tech}`}
+                      alt={tech.split(".")[0]}
+                      className="technology-icon"
+                    />
+                  ))}
+                </div>
+                </div>
               <div className="project-images">
                 <b>Images:</b>
-                {popUpInfo.projects[0].img.map((image, index) => (
+                {popUpInfo.projects[currentProject].img.map((image, index) => (
                   <div key={index} className="project-image-card">
                     <img
                       src={`/images/indicator_images/${image.name}`}

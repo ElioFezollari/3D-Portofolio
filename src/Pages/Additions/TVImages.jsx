@@ -2,12 +2,14 @@ import { Text, useCursor } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
 import Projects from "./Projects";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import projectMeshData from "../../Data/projectMeshData.json"
+import { popUpContext } from "../ContainerWrapper";
 const TVImages = () => {
   const [toggleHover,setToggleHover] = useState();
-  const [currentProject,setCurrentProject] = useState(0)
-  const maxProjects = 3
+  const [popUpInfo,setPopUpInfo,setWheelEnabled,currentProject,setCurrentProject]= useContext(popUpContext)
+  const maxProjects = 1
+  console.log(currentProject)
 
   const textures = useLoader(TextureLoader, projectMeshData.map(project => project.texture));
 

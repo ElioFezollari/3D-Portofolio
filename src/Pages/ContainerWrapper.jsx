@@ -8,6 +8,7 @@ import PopUp from "./Additions/PopUp"
 export const popUpContext = React.createContext()
 
 const ContainerWrapper = () =>{
+    const [currentProject,setCurrentProject] = useState(0)
     const [popUpInfo,setPopUpInfo] = useState() 
     const [wheelDirection,setWheelDirection] = useState('none')
     const [wheelEnabled,setWheelEnabled] = useState(true)
@@ -24,7 +25,7 @@ const ContainerWrapper = () =>{
 
     return(
         <div className="big-div" onWheel={e=>wheelTurned(e)}>
-        <popUpContext.Provider value={[popUpInfo,setPopUpInfo,setWheelEnabled]}>
+        <popUpContext.Provider value={[popUpInfo,setPopUpInfo,setWheelEnabled,currentProject,setCurrentProject]}>
         <Canvas linear flat>
             <Experience />
             <PCamera wheelDirection={wheelDirection} setWheelDirection={setWheelDirection} wheelEnabled={wheelEnabled} setWheelEnabled={setWheelEnabled} />

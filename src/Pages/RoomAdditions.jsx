@@ -4,6 +4,7 @@ import Indicators from "./Additions/Indicators"
 import TVImages from "./Additions/TvImages"
 
 const RoomAdditions = () =>{
+    
     return(
         <>
         <BookImages/>

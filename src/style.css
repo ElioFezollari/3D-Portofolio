@@ -90,6 +90,8 @@ body,
 }
 .close-button {
     background: transparent;
+    position: sticky;
+    top: 0;
     border: none;
     color: black;
     font-size: 26px;
@@ -147,7 +149,7 @@ body,
     height: 100vh;
     margin-top: 50px;
     width: 70%;
-    color: white;
+    color: #1A1A1A;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -172,4 +174,23 @@ body,
   }
   .project-image-card img{
     width: 100%;
+  }
+  .project-technologies{
+    display: flex;
+
+  }
+  .project-technologies div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+  }
+  .project-technologies b{
+    justify-self: flex-start;
+    text-align: sta;
+  }
+  .project-technologies img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
   }

@@ -10,17 +10,5 @@
         "title":"The North Pole",
         "textColor":"#4F5B9C",
         "bgColor":"white"
-    },
-    {
-        "texture":"./images/tv_images/PathFusion.webp",
-        "title":"Path Fusion",
-        "textColor":"black",
-        "bgColor":"white"
-    },
-    {
-        "texture":"./images/tv_images/TreasureMaze.webp",
-        "title":"Treazure Maze",
-        "textColor":"#C00111",
-        "bgColor":"white"
     }
 ]

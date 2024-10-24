@@ -31,7 +31,7 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
             x: animationPositions[animationNumber][0],
             y: animationPositions[animationNumber][1],
             z: animationPositions[animationNumber][2],
-            duration: 2,
+            duration: 0.1,
             ease: "power1.inOut",
         });
 
@@ -39,7 +39,7 @@ const useCameraAnimation = (camera, animationState, wheelDirection, setWheelDire
             x: animationRotations[animationNumber][0],
             y: animationRotations[animationNumber][1],
             z: animationRotations[animationNumber][2],
-            duration: 2,
+            duration: 0.1,
             ease: "power1.inOut",
             onComplete: () => {
                 setWheelEnabled(true);
