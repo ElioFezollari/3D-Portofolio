@@ -308,9 +308,6 @@
     "popUp": {
       "coordinate": [3.66, 3.63, -2.8],
       "title": "Projects",
-      "height": 650,
-      "width": 500,
-      "opacity": 1,
       "color": "#C9E5C0",
       "projects": [
         {
@@ -374,13 +371,10 @@
     "textPosition": [0, 0.7, -1],
     "textRotation": [0, 0, 0],
     "meshPosition": [2.74, 1.75, 3.419],
-    "size": 2,
     "popUp": {
       "coordinate": [3, 2.5, 3.419],
-      "title": "Me",
-      "height": 650,
-      "width": 500,
-      "opacity": 0.96
+      "title": "About Me",
+      "My Goals":""
     }
   }
 ]
