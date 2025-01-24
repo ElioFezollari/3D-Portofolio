@@ -9,7 +9,6 @@ const TVImages = () => {
   const [toggleHover,setToggleHover] = useState();
   const [popUpInfo,setPopUpInfo,setWheelEnabled,currentProject,setCurrentProject]= useContext(popUpContext)
   const maxProjects = 1
-  console.log(currentProject)
 
   const textures = useLoader(TextureLoader, projectMeshData.map(project => project.texture));
 

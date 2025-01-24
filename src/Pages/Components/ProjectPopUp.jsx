@@ -1,5 +1,5 @@
 const ProjectPopUp = ({ popUpInfo, setPopUpInfo, currentProject }) => {
-  console.log("hi");
+
   return (
     <div
       className="project-pop-up"

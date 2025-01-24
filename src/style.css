@@ -243,7 +243,48 @@ body,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: auto;
+  margin-top:90px;
   align-items: center;
+}
+
+
+@media (max-width: 650px) {
+
+  .pop-up .image-div,.pop-up .image-container{
+     display: none;
+  }
+  .pop-up{
+    width: 95%;
+    height: 450px;
+  }
+  .main-content-div{
+    padding: 10px;
+  }
+  .text-container{
+    width: 100%;
+    margin-left: 0;
+  }
+  .project-pop-up{
+    width: 95%;
+  }
+  .project-technologies{
+    display: flex;
+    flex-direction: column;
+  }
+  .project-technologies div{
+    width: 100%;
+  }
+  .project-wrapper-body{
+    padding: 15px;
+  }
+  .me-pop-up{
+    width: 85%;
+  }
+  .about-me-content{
+    height: auto;
+
+    overflow: auto;
+  }
 }
 
