@@ -16,9 +16,9 @@ const MePopUp = ({ popUpInfo, setPopUpInfo }) => {
           student, I have a deep passion for innovation and problem-solving. My
           skill set includes a diverse range of programming languages and tools,
           such as HTML, CSS, JavaScript, React, Git, and more. You might already
-          be familiar with these from my projects! I love building things! My
-          experience primarily revolves around web applications, but I'm
-          currently putting the finishing touches on my first version of a 3D
+          be familiar with these from the previous part of this project! I love building things! My
+          experience primarily revolves around web applications, and I'm
+          currently putting the finishing touches on my first version of this 3D
           web project. Following that, I'm excited to explore mobile app design
           in greater depth. In addition to web development, I enjoy tinkering
           with electronic boards like Arduino and Raspberry Pi. While these are

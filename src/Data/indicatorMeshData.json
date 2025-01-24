@@ -2,7 +2,7 @@
   {
     "textPosition": [1, 0.7, -0.15],
     "textRotation": [0, 1.57, 0],
-    "meshPosition": [-2.98, 3.96, -3.015],
+    "meshPosition": [-2.98, 3.96, -3.02],
     "popUp": {
       "coordinate": [-2.98, 3.96, -3.015],
       "title": "Javascript",
@@ -28,7 +28,7 @@
   {
     "textPosition": [1, 0.7, 0.1],
     "textRotation": [0, 1.57, 0.3],
-    "meshPosition": [-3.02, 3.94, -3.16],
+    "meshPosition": [-3.02, 3.94, -3.17],
     "popUp": {
       "coordinate": [-3.02, 3.94, -3.16],
       "title": "CSS",
@@ -53,7 +53,7 @@
   {
     "textPosition": [1, 0.7, 0.1],
     "textRotation": [-0.13, 1.57, 0],
-    "meshPosition": [-3.14, 3.94, -3.62],
+    "meshPosition": [-3.14, 3.94, -3.63],
     "popUp": {
       "coordinate": [-3.14, 3.94, -3.62],
       "title": "HTML",
@@ -68,7 +68,7 @@
   {
     "textPosition": [1, 0.9, 0.1],
     "textRotation": [0, 1.6, 0],
-    "meshPosition": [-2.95, 2.67, -3.07],
+    "meshPosition": [-2.95, 2.68, -3.07],
     "popUp": {
       "coordinate": [-2.95, 2.67, -3.07],
       "title": "React",
@@ -97,9 +97,8 @@
   {
     "textPosition": [1.05, 0.3, 0.5],
     "textRotation": [0, 1.6, 1.1],
-    "meshPosition": [-2.96, 3.14, -2.6],
+    "meshPosition": [-2.96, 3.11, -2.6],
     "popUp": {
-      "coordinate": [-2.96, 3.14, -2.6],
       "title": "ThreeJS",
       "color": "#F4F6FF",
       "img": "threeJS3d.webp",
@@ -112,7 +111,7 @@
   {
     "textPosition": [0.5, -0.4, 1],
     "textRotation": [0, 6.28, 3.8],
-    "meshPosition": [-3.5, 2.06, -3.06],
+    "meshPosition": [-3.52, 2.06, -3.06],
     "popUp": {
       "coordinate": [-3.5, 2.06, -3.06],
       "title": "PHP",
@@ -127,9 +126,8 @@
   {
     "textPosition": [0, 0.8, 0.98],
     "textRotation": [0, 6.28, -0.2],
-    "meshPosition": [-3.03, 2.1, -2.96],
+    "meshPosition": [-3.04, 2.1, -2.96],
     "popUp": {
-      "coordinate": [-3.03, 2.1, -2.96],
       "title": "Java and Spring",
       "color": "#E37B19",
       "img": "java3d.webp",
@@ -153,9 +151,8 @@
   {
     "textPosition": [0, 0.8, 1],
     "textRotation": [0, 6.28, 0],
-    "meshPosition": [-3.44, 1.895, -2.93],
+    "meshPosition": [-3.45, 1.895, -2.93],
     "popUp": {
-      "coordinate": [-3.44, 1.895, -2.93],
       "title": "C# and .NET",
       "color": "#390091",
       "img": "cs3d.webp",
@@ -174,7 +171,7 @@
   {
     "textPosition": [0.3, -0.5, 1],
     "textRotation": [0, 6.28, 3.44],
-    "meshPosition": [-2.93, 1.36, -2.965],
+    "meshPosition": [-2.935, 1.35, -2.965],
     "popUp": {
       "coordinate": [-2.93, 1.36, -2.965],
       "title": "Relational Databases",
@@ -203,7 +200,7 @@
   {
     "textPosition": [0, 0.8, 1],
     "textRotation": [0, 6.28, 0],
-    "meshPosition": [-2.7, 1.6, -3.12],
+    "meshPosition": [-2.695, 1.6, -3.12],
     "popUp": {
       "coordinate": [-2.7, 1.6, -3.12],
       "title": "NodeJS",
@@ -243,7 +240,7 @@
   {
     "textPosition": [-0.3, -0.6, 1],
     "textRotation": [0, 6.28, 2.7],
-    "meshPosition": [-3.55, 0.85, -3.04],
+    "meshPosition": [-3.55, 0.83, -3.04],
     "popUp": {
       "coordinate": [-3.55, 0.85, -3.04],
       "title": "DevOPS",
@@ -272,7 +269,7 @@
   {
     "textPosition": [0, 0.8, 1],
     "textRotation": [0, 6.28, 0],
-    "meshPosition": [-3.5, 0.465, -3.03],
+    "meshPosition": [-3.5, 0.455, -3.03],
     "popUp": {
       "coordinate": [-3.5, 0.465, -3.03],
       "title": "Docker",
@@ -287,7 +284,7 @@
   {
     "textPosition": [0, 0.8, 1],
     "textRotation": [0, 6.28, 0],
-    "meshPosition": [-3.47, 0.33, -3.03],
+    "meshPosition": [-3.5, 0.32, -3.03],
     "popUp": {
       "coordinate": [-3.47, 0.33, -3.03],
       "title": "Git and Github",

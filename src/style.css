@@ -246,3 +246,8 @@ body,
   height: 100%;
   align-items: center;
 }
+
+.canvas,canvas{
+  touch-action: auto !important;
+  pointer-events: none !important;
+}
