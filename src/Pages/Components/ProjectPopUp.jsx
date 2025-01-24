@@ -1,13 +1,17 @@
+import github from"../../../public/images/indicator_images/github.svg"
 const ProjectPopUp = ({ popUpInfo, setPopUpInfo, currentProject }) => {
-
+  console.log(popUpInfo.projects[currentProject])
   return (
     <div
       className="project-pop-up"
       style={{ backgroundColor: popUpInfo.color }}
     >
+      <div className="project-header">
+        <a href={popUpInfo.projects[currentProject].github}><img src={github} alt="icon of github" /></a>
       <button onClick={() => setPopUpInfo(null)} className="close-button">
         X
       </button>
+      </div>
       <div className="project-wrapper-div">
         <h1>{popUpInfo.projects[currentProject].title}</h1>
         <div className="project-wrapper-body">

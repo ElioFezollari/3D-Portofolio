@@ -97,7 +97,9 @@ body,
     font-size: 26px;
     cursor: pointer;
     align-self: flex-end;
-    margin: 10px 10px 0px 0px;
+  }
+  .project-pop-up .close-button{
+    font-size: 36px;
   }
   .image-container{
     width: 40%;
@@ -187,7 +189,7 @@ body,
   }
   .project-technologies b{
     justify-self: flex-start;
-    text-align: sta;
+    text-align: start;
   }
   .project-technologies img{
     width: 40px;
@@ -249,6 +251,21 @@ body,
 }
 
 
+.project-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.project-header a{
+  width: 40px;
+
+}
+.project-header img{
+  width: 100%;
+}
 @media (max-width: 650px) {
 
   .pop-up .image-div,.pop-up .image-container{

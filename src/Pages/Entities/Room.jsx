@@ -15,7 +15,6 @@ export default function Room() {
         <meshBasicMaterial map={texture}></meshBasicMaterial>
       </mesh>
       <RoomAdditions />
-      
     </>
   );
 }

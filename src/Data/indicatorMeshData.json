@@ -308,6 +308,7 @@
       "color": "#C9E5C0",
       "projects": [
         {
+          "github":"https://github.com/ElioFezollari/PetExpo-Fullstack",
           "title": "Pet Expo",
           "description": "Pet Expo is a full-stack application designed to showcase a wide variety of dogs, cats, and birds. It provides detailed information, classifying them by species, origin, current location, and much more. Regular users can browse, search, and filter through a large gallery of animals, while admins have the ability to easily add new species or breeds via a user-friendly interface. The frontend is built with React and utilizes the Framer Motion library to create stunning animations, along with React Router for seamless navigation. The backend is powered by NestJS, and MongoDB is used as the database.",
           "color": "#171717",
@@ -334,6 +335,7 @@
         },
         {
           "title": "The North Pole",
+          "github":"https://github.com/ElioFezollari/COMP2139-Assignment1",
           "description": "The North Pole is yet another fullstack application, this time used as a booking platform, in which the user can pick between booking a car, hotel room or a flight.All three categories include admin created bookings which display all the details neccessary to make the right decision.While users can reserve these bookings for as long and whenever they decide ( as long as the item has not already been booked ) admin have the opportunity to create new bookings and edit and delete existing ones. All users also have access to their own profile page with preferences and more. This application also includes a register and login page combined with email verification.The application itself is built with the asp.net core framework, and simple HTML CSS AND JS. It uses SQLServer as a database.",
           "color": "#171717",
           "textcolor": "",
