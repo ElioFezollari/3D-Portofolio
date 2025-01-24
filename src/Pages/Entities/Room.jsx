@@ -5,7 +5,7 @@ import { sRGBEncoding } from "@react-three/drei/helpers/deprecated";
 import RoomAdditions from "../RoomAdditions";
 
 export default function Room() {
-  const texture = useLoader(TextureLoader, "./OptBake.jpg");
+  const texture = useLoader(TextureLoader, "./OptBake.webp");
   texture.flipY = false;
   texture.colorSpace = sRGBEncoding;
   const { nodes } = useGLTF("./Room.glb");

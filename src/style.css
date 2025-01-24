@@ -247,7 +247,3 @@ body,
   align-items: center;
 }
 
-.canvas,canvas{
-  touch-action: auto !important;
-  pointer-events: none !important;
-}
